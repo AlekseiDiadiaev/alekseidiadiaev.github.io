@@ -1,0 +1,46 @@
+
+.header {
+    height: 75px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 25px;
+    
+    &__logo {
+        width: 33%;
+        img{
+            max-width: 260px;
+        }
+    }
+    
+    &__representative {
+        width: 33%;
+        font-size: 12px;
+        color: rgb(255, 255, 255);
+        line-height: 1.7;
+        text-align: center;
+
+        & span {
+            font-size: 18px;
+            font-weight: 700;           
+        }
+    }
+        
+    &__call {
+        width: 33%;
+        text-align: right;
+        line-height: 7px;
+        }
+    &__tel {
+        display: block;
+        font-size: 18px;
+        color: rgb(255, 255, 255);
+        text-align: right;
+        text-decoration: none;
+        margin-bottom: 13px;
+        }
+    &__tel:hover {
+        text-decoration: underline;
+        color: rgb(255, 255, 255);
+    }
+        
+}
